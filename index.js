@@ -1,3 +1,3 @@
 function findMatching(collection, name) {
-  drivers.filter(function (drivers) { return drivers.name; });
+  return collection.filter(function (drivers) { return drivers.name; });
 }
