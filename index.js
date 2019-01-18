@@ -3,7 +3,7 @@ function findMatching(collection, name) {
 }
 
 function fuzzyMatch(collection, nameBegins) {
-  let nameBeginsLenght = nameBegins.length;
+  let nameBeginsLength = nameBegins.length;
   
-  return collection.filter(function (driver) { return driver.nameBegins})
+  return collection.filter(function (driver) { return nameBeginsLength.slice(0), nameBegins;})
 }
