@@ -9,5 +9,5 @@ function fuzzyMatch(collection, nameBegins) {
 }
 
 function matchName(collection, name) {
-  return collection.filter(function (driver) {return driver === name;});
+  return collection.filter(function (driver) {return driver.name === name;});
 }
