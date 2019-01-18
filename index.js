@@ -5,5 +5,5 @@ function findMatching(collection, name) {
 function fuzzyMatch(collection, nameBegins) {
   let nameBeginsLength = nameBegins.length;
   
-  return collection.filter(function (driver) { return driver.slice(0, nameBeginsLength), nameBegins;});
+  return collection.filter(function (driver) { return driver.slice(0, nameBeginsLength) === nameBegins;});
 }
